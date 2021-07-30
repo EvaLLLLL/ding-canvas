@@ -1,0 +1,11 @@
+<view>
+  <view style="position: fixed;left: 10000000px;top: 10000000px">
+    <canvas
+      id="test"
+      width="{{canvasWidth}}"
+      height="{{canvasHeight}}"
+      style="{{canvasStyle}}"
+    />
+  </view>
+  <button type="primary" onTap="onCreatePost">createPost</button>
+</view>
